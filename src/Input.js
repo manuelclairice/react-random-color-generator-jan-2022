@@ -1,7 +1,7 @@
 export default function Input(props) {
   return (
     <div>
-      <label htmlFor={props.htmlFor}>Enter {props.text}: </label>
+      <label htmlFor={props.htmlFor}>{props.text}: </label>
       <input
         type={props.type}
         id={props.id}
