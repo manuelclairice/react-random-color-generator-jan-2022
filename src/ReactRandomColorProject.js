@@ -89,10 +89,10 @@ function App() {
     setHeight(event.currentTarget.value);
   }
 
-  const str = <h2 css={center}>{randomColor}</h2>;
+  const str = <h2 css={center}>Generated color: {randomColor}</h2>;
 
   const colorBox = css`
-    background-color: ${`Generated clored: ${randomColor}`};
+    background-color: ${randomColor};
     width: ${width > 0 && width < 1000 ? width : 400}px;
     height: ${height > 0 && height < 1000 ? height : 300}px;
   `;
