@@ -26,7 +26,7 @@ export default function Button(props) {
         )
       }
     >
-      Generate random color
+      Generate
     </button>
   );
 }

@@ -92,16 +92,16 @@ function App() {
   const str = <h2 css={center}>{randomColor}</h2>;
 
   const colorBox = css`
-    background-color: ${randomColor};
+    background-color: ${`Generated clored: ${randomColor}`};
     width: ${width > 0 && width < 1000 ? width : 400}px;
     height: ${height > 0 && height < 1000 ? height : 300}px;
   `;
 
   return (
     <div css={frame}>
-      <h1>Random Color Generator</h1>
+      <h1>Random Color Generator App</h1>
 
-      <h3>Would you like the color to be a certain hue and luminosity?</h3>
+      <h3>Choose the hue and luminosity?</h3>
       <div>
         <Input
           htmlFor="hue"
@@ -127,7 +127,7 @@ function App() {
       </div>
       <br />
 
-      <h3>You can also resize the box!</h3>
+      <h3>Choose the size of the box!</h3>
       <div>
         <Input
           htmlFor="width"
