@@ -101,7 +101,7 @@ function App() {
     <div css={frame}>
       <h1>Random Color Generator App</h1>
 
-      <h3>Choose the hue and luminosity?</h3>
+      <h3>Choose the hue and luminosity</h3>
       <div>
         <Input
           htmlFor="hue"
